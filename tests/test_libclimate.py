@@ -7,7 +7,7 @@ class Test_libclimate(unittest.TestCase):
 
     def test_version(self):
 
-        self.assertEqual('0.0.1', libclimate.__version__)
+        self.assertEqual('0.0.2', libclimate.__version__)
 
     def test_runtime_dependencies_importable(self):
 
