@@ -43,14 +43,14 @@ autocmd BufWritePre * %s/\s\+$//e
 augroup sis_python
   autocmd!
 
-  " [python] — match .vscode [python] tabSize 4 / insertSpaces true / rulers 60,76
-  autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4 colorcolumn=60,76
+  " [json] / [markdown] / [yaml]
+  autocmd FileType json,markdown,yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
+  " [python] — match .vscode [python] tabSize 4 / insertSpaces true / rulers 50,60,76,120
+  autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4 colorcolumn=50,60,76,120
 
   " [shellscript]
   autocmd FileType sh,bash,zsh setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2 colorcolumn=60,76
-
-  " [json] / [markdown] / [yaml]
-  autocmd FileType json,markdown,yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
   " [toml]
   autocmd FileType toml setlocal noexpandtab tabstop=2 shiftwidth=2 softtabstop=2
