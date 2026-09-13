@@ -15,10 +15,13 @@ __status__      =   'Alpha'
 __version__     =   '0.0.1'
 
 
-import diagnosticism
-import pyclasp
-import woad
+import diagnosticism as diagnosticism
+import pyclasp as pyclasp
+import woad as woad
 
 
 __all__ = [
+    'diagnosticism',
+    'pyclasp',
+    'woad',
 ]
