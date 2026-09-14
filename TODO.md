@@ -8,12 +8,12 @@
 
 ## Performance improvements
 
-* \<none
+* \<none>
 
 
 ## Packaging improvements
 
-* [ ] first PyPI publish must be **0.0.2+** (**libclimate** already has a 2019 **0.0.0.0** stub);
+* [ ] first PyPI publish must be **0.0.0+** (**libclimate** already has a 2019 **0.0.0.0** stub);
 * [ ] verify **Python 2.7** can install **diagnosticism**, **pyclasp**, and **woad**; drop **build-py27** only if that install fails;
 
 
