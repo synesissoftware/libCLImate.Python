@@ -1,0 +1,2 @@
+libCLImate.Python is a Command-Line Interface boilerplate mini-framework for Python
+Copyright (c) 2019-2026, Matthew Wilson and Synesis Information Systems
